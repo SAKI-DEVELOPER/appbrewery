@@ -6,6 +6,9 @@
     <title>The App Brewery</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Metrophobic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <section id="header">
@@ -37,8 +40,8 @@
           </header> -->
 
 
-
-          <nav class="navbar navbar-expand-xl navbar-dark col-12" style="background-color: rgb(255, 189, 89);" aria-label="Sixth navbar example">
+        <div class="nav-cont" style="background-color: rgb(255, 189, 89);">
+          <nav class="navbar navbar-expand-xl navbar-dark col-12"  aria-label="Sixth navbar example">
             <div class="container-fluid container ml-5">
                 
               <a class="navbar-brand col-10 " href="#"><img src="./images/logo.png" alt="" height="60" class="logo-image "></a>
@@ -73,27 +76,146 @@
               </div>
             </div>
           </nav>
+        </div>
     </section>
 
     <section id="main-content">
         <!-- Main Content -->
-         <div class=" main-content-container">
-            <div class="category-author container">
-                <h3 class="col-5">Category:<a href="#" style="color: rgb(255, 178, 63); text-decoration: none; margin-left: 1rem;">All</a></h3>
+         <div class=" main-content-container container">
+            <div class="row">
+                    <div class="container sub-content-container row">
+                        <div class="sub-cat-auth col-lg-7 col-12">
+                          <div class="category-author col-md-12">
+                              <h5 class="col-5">Category:<a href="#" style="color: rgb(255, 178, 63); text-decoration: none; margin-left: 1rem;">All</a></h5>
 
 
-                <h3>Author: <a href="#" style="color: rgb(255, 178, 63); text-decoration: none; margin-left: 1rem;">All</a></h3> 
-            </div>
-            <div class="input-group search-bar" >
-                <input type="text" placeholder="Find a product" class="search">
-                <button class="btn btn-outline-secondary" type="button"><img src="" alt=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-search" viewBox="0 0 16 16">
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                  </svg></button>
+                              <h5>Author: <a href="#" style="color: rgb(255, 178, 63); text-decoration: none; margin-left: 1rem;">All</a></h5> 
+                          </div>
+                        </div>
+                        <div class="sub-search col-lg-5 col-12">
+                          <div class="input-group search-bar col-lg-6 col-12" >
+                              <input type="text" placeholder="Find a product" class="search ">
+                              <button class="btn btn-outline-secondary" type="button"><img src="" alt=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-search" viewBox="0 0 16 16">
+                                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                                </svg></button>
+                        </div>
+                          </div>
+                    </div>
               </div>
 
          </div>
 
+
+         <section id="courses">
+            <div class="container mt-5 mb-5">
+                <div class="row row-cols-1 row-cols-md-3 gy-5 container">
+                  <div class="col">
+                    <div class="card">
+                      <img src="./images/course1.png" class="card-img-top" height="auto" alt="">
+                      <div class="card-body">
+                        <h3 class="card-title" style="font-weight: 600; font-size: 27px;">ios13-app-development-lessons</h3>
+                        <p class="card-text">Learn to develop iOS 13 apps using Swift 5.1 and Xcode 11.</p>
+                      </div>
+                      <div class="bot-card-flex">
+                        <div class="profile-teach"><img src="./images/profile-img.jpg" alt=""> <p>Angela Yu</p></div>
+                        <div class="price-course">$19</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="./images/course2.png" class="card-img-top" height="auto" alt="">
+                      <div class="card-body">
+                        <h3 class="card-title" style="font-weight: 600; font-size: 27px;">The Complete Web Development Course</h3>
+                        <p class="card-text">The complete full-stack web development bootcamp with HTML 5, CSS 3, Javascript ES6,...</p>
+                      </div>
+                      <div class="bot-card-flex">
+                        <div class="profile-teach"><img src="./images/profile-img.jpg" alt=""> <p>Angela Yu</p></div>
+                        <div class="price-course">$19</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="./images/course3.png" class="card-img-top" height="auto" alt="">
+                      <div class="card-body">
+                        <h3 class="card-title" style="font-weight: 600; font-size: 27px;">ios13-app-development-lessons</h3>
+                        <p class="card-text">Learn to develop iOS 13 apps using Swift 5.1 and Xcode 11.</p>
+                      </div>
+                      <div class="bot-card-flex">
+                        <div class="profile-teach"><img src="./images/profile-img.jpg" alt=""> <p>Angela Yu</p></div>
+                        <div class="price-course">$0</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="./images/course4.png" class="card-img-top" height="auto" alt="">
+                      <div class="card-body">
+                        <h3 class="card-title" style="font-weight: 600; font-size: 27px;">ios13-app-development-lessons</h3>
+                        <p class="card-text">Learn to develop iOS 13 apps using Swift 5.1 and Xcode 11.</p>
+                      </div>
+                      <div class="bot-card-flex">
+                        <div class="profile-teach"><img src="./images/profile-img.jpg" alt=""> <p>Angela Yu</p></div>
+                        <div class="price-course">$10</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="./images/course5.png" class="card-img-top" height="auto" alt="">
+                      <div class="card-body">
+                        <h3 class="card-title" style="font-weight: 600; font-size: 27px;">ios13-app-development-lessons</h3>
+                        <p class="card-text">Learn to develop iOS 13 apps using Swift 5.1 and Xcode 11.</p>
+                      </div>
+                      <div class="bot-card-flex">
+                        <div class="profile-teach"><img src="./images/profile-img.jpg" alt=""> <p>Angela Yu</p></div>
+                        <div class="price-course">$10</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="./images/course6.png" class="card-img-top" height="auto" alt="">
+                      <div class="card-body">
+                        <h3 class="card-title" style="font-weight: 600; font-size: 27px;">ios13-app-development-lessons</h3>
+                        <p class="card-text">Learn to develop iOS 13 apps using Swift 5.1 and Xcode 11.</p>
+                      </div>
+                      <div class="bot-card-flex">
+                        <div class="profile-teach"><img src="./images/profile-img.jpg" alt=""> <p>Angela Yu</p></div>
+                        <div class="price-course">$10</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+         </section>
+
         
+    </section>
+
+    <section id="footer">
+      <!-- Footer -->
+    <div class="footer-ctr mb-0 pb-0">
+      <div class="container ">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-5 my-4 border-top">
+          <p class="col-md-4 mb-0 ">© The App Brewery</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <p>Terms of Use <br>
+              Privacy Policy</p>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 ">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 ">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 ">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 ">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 ">About</a></li>
+          </ul>
+        </footer>
+      </div>
+    </div>
     </section>
     
 </body>
