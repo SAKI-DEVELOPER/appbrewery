@@ -8,6 +8,11 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+.container-fluid {
+    /* border: 2px solid #f00; */
+    /* padding: 0rem 5rem 0rem 5rem; */
+}
   
 
 .right-head {
@@ -27,6 +32,8 @@ body {
 .sub-content-container {
     display: flex;
     margin: 3rem 0rem 0rem 0rem;
+    padding: 0rem 5rem 0rem 5rem;
+    /* border: 2px solid #a4f; */
 }
 
 
@@ -45,6 +52,10 @@ body {
     flex: 1;
     color: rgb(152, 152, 152);
     
+}
+
+.search-fit {
+    /* border: 2px solid #f00; */
 }
 .btn-outline-secondary {
     border: 0.0000001rem solid rgba(177, 177, 177, 0.832);
@@ -92,7 +103,32 @@ body {
     /* border: 2px solid #f00; */
     gap: 0px;
     flex: 1;
+    padding: 0rem 0rem 0rem 0.5rem;
 
+}
+
+#courses {
+    margin: 3.5rem 0rem 0rem 0rem;
+}
+
+.courses-head {
+    /* padding: 0rem 5rem 0rem 5rem; */
+}
+
+.card-title {
+    font-size: 22px;
+    font-family: "Metrophobic", serif;
+    font-weight: 700;
+}
+
+.card-text {
+
+}
+
+.card-cont {
+    /* border: 2px solid #0f0; */
+    /* padding: 0rem 4rem 0rem 4rem; */
+    /* column-gap: 20px; */
 }
 
 .bot-card-flex {
@@ -108,11 +144,12 @@ body {
     justify-content: space-between;
     /* border: 2px solid skyblue; */
     width: 40%;
+    min-width: 7.5rem;
     align-items: center;
 }
 
 .profile-teach img {
-    height: 45px;
+    height: 35px;
     border-radius: 50%;
 }
 
