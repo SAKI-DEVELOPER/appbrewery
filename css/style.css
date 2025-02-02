@@ -9,6 +9,11 @@ body {
     font-style: normal;
 }
 
+.main-cont {
+    padding: 0rem 5rem 0rem 5rem;
+    
+}
+
 .container-fluid {
     /* border: 2px solid #f00; */
     /* padding: 0rem 5rem 0rem 5rem; */
